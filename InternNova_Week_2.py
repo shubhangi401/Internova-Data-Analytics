@@ -1,189 +1,189 @@
 import numpy as np
 import pandas as pd
-# Create NumPy array containing at least 10 numbers
-# numbers = np.array([10, 20, 30, 40, 50, 60, 70, 80, 90, 100])
+ Create NumPy array containing at least 10 numbers
+numbers = np.array([10, 20, 30, 40, 50, 60, 70, 80, 90, 100])
 
-# print("NumPy Array:")
-# print(numbers)
+print("NumPy Array:")
+print(numbers)
 
-# # Display shape
-# print("Shape:", numbers.shape)
+# Display shape
+print("Shape:", numbers.shape)
 
-# # Display size
-# print("Size:", numbers.size)
+# Display size
+print("Size:", numbers.size)
 
-# # Display data type
-# print("Data Type:", numbers.dtype)
+# Display data type
+print("Data Type:", numbers.dtype)
 
-# # One-dimensional array
-# one_d = np.array([1, 2, 3, 4, 5, 6])
+# One-dimensional array
+one_d = np.array([1, 2, 3, 4, 5, 6])
 
-# print("\nOne-Dimensional Array:")
-# print(one_d)
+print("\nOne-Dimensional Array:")
+print(one_d)
 
-# # Two-dimensional array
-# two_d = np.array([
-#     [1, 2, 3],
-#     [4, 5, 6]
-# ])
+# Two-dimensional array
+two_d = np.array([
+    [1, 2, 3],
+    [4, 5, 6]
+])
 
-# print("\nTwo-Dimensional Array:")
-# print(two_d)
+print("\nTwo-Dimensional Array:")
+print(two_d)
 
-# print("2D Array Shape:", two_d.shape)
+print("2D Array Shape:", two_d.shape)
 
-# TASK 2: NumPy Indexing, Slicing & Reshaping
-# ============================================================
+#TASK 2: NumPy Indexing, Slicing & Reshaping
+#============================================================
 
-# print("\n========== TASK 2: Indexing, Slicing & Reshaping ==========")
+print("\n========== TASK 2: Indexing, Slicing & Reshaping ==========")
 
-# arr = np.array([10, 20, 30, 40, 50, 60, 70, 80, 90, 100])
+arr = np.array([10, 20, 30, 40, 50, 60, 70, 80, 90, 100])
 
-# # Indexing
-# print("First element:", arr[0])
-# print("Fifth element:", arr[4])
-# print("Last element:", arr[-1])
+# Indexing
+print("First element:", arr[0])
+print("Fifth element:", arr[4])
+print("Last element:", arr[-1])
 
-# # Slicing
-# print("\nFirst five elements:")
-# print(arr[:5])
+# Slicing
+print("\nFirst five elements:")
+print(arr[:5])
 
-# print("Elements from index 2 to 6:")
-# print(arr[2:7])
+print("Elements from index 2 to 6:")
+print(arr[2:7])
 
-# print("Last three elements:")
-# print(arr[-3:])
+print("Last three elements:")
+print(arr[-3:])
 
-# # Create 2D array
-# matrix = np.array([
-#     [10, 20, 30],
-#     [40, 50, 60],
-#     [70, 80, 90]
-# ])
+# Create 2D array
+matrix = np.array([
+    [10, 20, 30],
+    [40, 50, 60],
+    [70, 80, 90]
+])
 
-# print("\n2D Array:")
-# print(matrix)
+print("\n2D Array:")
+print(matrix)
 
-# # Access rows
-# print("\nFirst Row:")
-# print(matrix[0])
+# Access rows
+print("\nFirst Row:")
+print(matrix[0])
 
-# print("Second Row:")
-# print(matrix[1])
+print("Second Row:")
+print(matrix[1])
 
-# # Access columns
-# print("First Column:")
-# print(matrix[:, 0])
+# Access columns
+print("First Column:")
+print(matrix[:, 0])
 
-# print("Second Column:")
-# print(matrix[:, 1])
+print("Second Column:")
+print(matrix[:, 1])
 
-# # Access specific element
-# print("Element at row 2, column 3:")
-# print(matrix[1, 2])
+# Access specific element
+print("Element at row 2, column 3:")
+print(matrix[1, 2])
 
-# # Reshaping
-# original = np.array([
-#     1, 2, 3, 4,
-#     5, 6, 7, 8,
-#     9, 10, 11, 12
-# ])
+# Reshaping
+original = np.array([
+    1, 2, 3, 4,
+    5, 6, 7, 8,
+    9, 10, 11, 12
+])
 
-# reshaped = original.reshape(3, 4)
+reshaped = original.reshape(3, 4)
 
-# print("\nOriginal Array:")
-# print(original)
+print("\nOriginal Array:")
+print(original)
 
-# print("\nReshaped Array:")
-# print(reshaped)
-# TASK 3: NumPy Mathematical & Statistical Operations
-# ============================================================
+print("\nReshaped Array:")
+print(reshaped)
+#TASK 3: NumPy Mathematical & Statistical Operations
+#============================================================
 
-# print("\n========== TASK 3: Mathematical & Statistical Operations ==========")
+print("\n========== TASK 3: Mathematical & Statistical Operations ==========")
 
-# a = np.array([10, 20, 30, 40, 50])
-# b = np.array([5, 10, 15, 20, 25])
+a = np.array([10, 20, 30, 40, 50])
+b = np.array([5, 10, 15, 20, 25])
 
-# print("Array A:", a)
-# print("Array B:", b)
+print("Array A:", a)
+print("Array B:", b)
 
-# # Mathematical operations
-# print("\nAddition:")
-# print(a + b)
+# Mathematical operations
+print("\nAddition:")
+print(a + b)
 
-# print("\nSubtraction:")
-# print(a - b)
+print("\nSubtraction:")
+print(a - b)
 
-# print("\nMultiplication:")
-# print(a * b)
+print("\nMultiplication:")
+print(a * b)
 
-# print("\nDivision:")
-# print(a / b)
+print("\nDivision:")
+print(a / b)
 
-# # Statistical dataset
-# dataset = np.array([10, 20, 30, 40, 50, 60, 70])
+# Statistical dataset
+dataset = np.array([10, 20, 30, 40, 50, 60, 70])
 
-# print("\nStatistical Operations:")
+print("\nStatistical Operations:")
 
-# print("Mean:", np.mean(dataset))
+print("Mean:", np.mean(dataset))
 
-# print("Median:", np.median(dataset))
+print("Median:", np.median(dataset))
 
-# print("Minimum:", np.min(dataset))
+print("Minimum:", np.min(dataset))
 
-# print("Maximum:", np.max(dataset))
+print("Maximum:", np.max(dataset))
 
-# print("Standard Deviation:", np.std(dataset))
+print("Standard Deviation:", np.std(dataset))
 
-# print("Sum:", np.sum(dataset))
+print("Sum:", np.sum(dataset))
 # TASK 4: Pandas Series & DataFrame
 # ============================================================
 
-# print("\n========== TASK 4: Pandas Series & DataFrame ==========")
+print("\n========== TASK 4: Pandas Series & DataFrame ==========")
 
 # Create Pandas Series
-# marks_series = pd.Series(
-#     [85, 78, 92, 88, 76],
-#     index=["Amit", "Sneha", "Rahul", "Priya", "Neha"]
-# )
+marks_series = pd.Series(
+    [85, 78, 92, 88, 76],
+    index=["Amit", "Sneha", "Rahul", "Priya", "Neha"]
+)
 
-# print("Pandas Series:")
-# print(marks_series)
+print("Pandas Series:")
+print(marks_series)
 
-# #Create DataFrame
-# students = pd.DataFrame({
-#     "Name": ["Amit", "Sneha", "Rahul", "Priya", "Neha"],
-#     "Age": [20, 21, 20, 22, 21],
-#     "Marks": [85, 78, 92, 88, 76],
-#     "Department": [
-#         "CSE",
-#         "Data Science",
-#         "CSE",
-#         "Data Science",
-#         "CSE"
-#     ]
-# })
+#Create DataFrame
+students = pd.DataFrame({
+    "Name": ["Amit", "Sneha", "Rahul", "Priya", "Neha"],
+    "Age": [20, 21, 20, 22, 21],
+    "Marks": [85, 78, 92, 88, 76],
+    "Department": [
+        "CSE",
+        "Data Science",
+        "CSE",
+        "Data Science",
+        "CSE"
+    ]
+})
 
-# print("\nStudent DataFrame:")
-# print(students)
+print("\nStudent DataFrame:")
+print(students)
 
-# # Column names
-# print("\nColumn Names:")
-# print(students.columns)
+# Column names
+print("\nColumn Names:")
+print(students.columns)
 
-# # Index
-# print("\nIndex:")
-# print(students.index)
+# Index
+print("\nIndex:")
+print(students.index)
 
-# # Add new column
-# students["Result"] = np.where(
-#     students["Marks"] >= 40,
-#     "Pass",
-#     "Fail"
-# )
+# Add new column
+students["Result"] = np.where(
+    students["Marks"] >= 40,
+    "Pass",
+    "Fail"
+)
 
-# print("\nUpdated DataFrame:")
-# print(students)
+print("\nUpdated DataFrame:")
+print(students)
 # TASK 5: Reading & Inspecting Data
 # ============================================================
 
